@@ -1,0 +1,107 @@
+= Test presentation
+:revealjsdir: ../reveal.js/
+:revealjs_customtheme: ../revealjs-css/ribose.css
+:revealjs_width: "100%"
+:revealjs_height: "100%"
+:revealjs_margin: 0
+:revealjs_minscale: 1
+:revealjs_maxscale: 1
+:icons: font
+:source-highlighter: highlightjs
+
+[.logo--banner]
+Ribose
+
+[.logo--event]
+ISO TCXX / WGXX
+
+May 16, 2018
+
+Seattle, Washington, USA
+
+* Josiah Carberry, Ribose
+
+
+== Background
+
+[cols="2*"]
+|===
+
+a|
+
+1
+
+a|
+
+2
+
+|===
+
+== Today
+
+[cols="2*"]
+|===
+
+a|
+
+3
+
+a|
+
+4
+
+|===
+
+
+== WG 3: vCard Phonetic Transcription Extension
+
+[cols="2*"]
+|===
+
+a|
+
+WG3 has a long list of transliterated/romanized languages:
+
+* ISO 9 Cyrillic (Slavic / non-Slavic)
+* ISO 233 Arabic, Persian
+* ISO 259 Hebrew
+* ISO 9984 Georgian
+* ISO 9985 Armenian
+* ISO 11940 Thai
+* ISO 15919 Devanagari/Indic
+* ISO 3602 Japanese
+* ISO 7098 Chinese Mandarin
+
+a|
+
+WG3 seems like a great location.
+
+|===
+
+
+
+== Join us in Tokyo!
+
+[cols="2*"]
+|===
+
+a|
+_Tokyo_, Japan
+
+a|
+
+image::images/tokyo.jpg[]
+
+|===
+
+[.end]
+== Questions?
+
+[.logo--event]
+Thank You!
+
+[.credit]
+Ribose
+
+[.credit]
+https://www.ribose.com/

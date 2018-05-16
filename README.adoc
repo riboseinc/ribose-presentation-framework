@@ -1,0 +1,48 @@
+= Ribose Presentations
+
+== Fetching Reveal.js
+
+[source,shell]
+----
+git submodule init
+git submodule update
+----
+
+== Creating A New Presentation
+
+Copy one of the old directories into a new one.
+
+Then:
+
+[source,shell]
+----
+cd new-presentation/
+bundle update
+----
+
+== Updating the Reveal.js calconnect.css Stylesheet
+
+From this exact directory.
+
+Prepare npm for Reveal.js:
+
+[source,shell]
+----
+pushd reveal.js
+npm install
+npm install -g grunt
+npm install -g decktape
+popd
+----
+
+Regenerate the CSS:
+
+[source,shell]
+----
+cp revealjs-css/ribose.scss reveal.js/css/theme/source/
+pushd reveal.js
+grunt css-themes
+popd
+cp reveal.js/css/theme/ribose.css revealjs-css/
+----
+
