@@ -10,11 +10,11 @@
 // Include theme-specific fonts
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 
-$ccviolet: #485094;
+$ribosegreen: #9ABD48;
 $blockMargin: 2vmin;
 
 // Override theme settings (see ../template/settings.scss)
-//$backgroundColor: #485094;
+//$backgroundColor: #9ABD48;
 $backgroundColor: #fff;
 
 $mainColor: #222;
@@ -29,7 +29,7 @@ $headingTextShadow: none;
 $headingLetterSpacing: normal;
 $headingTextTransform: none;
 $headingFontWeight: 600;
-$linkColor: $ccviolet; //#42affa;
+$linkColor: $ribosegreen; //#42affa;
 $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: lighten( $linkColor, 25% );
 $heading1Size: 2.0em;
@@ -130,13 +130,13 @@ html {
   ul li:before {
     content: "\f105";
     font-family: FontAwesome;
-    color: $ccviolet; /* or whatever color you prefer */
+    color: $ribosegreen; /* or whatever color you prefer */
     position: absolute;
     left: -3vmin;
   }
 
   .admonitionblock {
-    color: $ccviolet;
+    color: $ribosegreen;
   }
 
   background:
@@ -181,7 +181,7 @@ html {
 .reveal h1,
 .reveal h2
 {
-	background-color: $ccviolet;
+	background-color: $ribosegreen;
 	color: #fff;
 }
 
@@ -243,7 +243,7 @@ html {
 	.logo--event,
   .logo--banner {
     position: absolute;
-    color: $ccviolet;
+    color: $ribosegreen;
     font-family: $headingFont;
     margin-left: auto;
     margin-right: auto;

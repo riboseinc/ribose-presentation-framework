@@ -205,7 +205,7 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #485094;
+  color: #9ABD48;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
@@ -240,21 +240,21 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #485094;
+  border-color: #9ABD48;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
  * NAVIGATION CONTROLS
  *********************************************/
 .reveal .controls {
-  color: #485094; }
+  color: #9ABD48; }
 
 /*********************************************
  * PROGRESS BAR
  *********************************************/
 .reveal .progress {
   background: rgba(0, 0, 0, 0.2);
-  color: #485094; }
+  color: #9ABD48; }
 
 .reveal .progress span {
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
@@ -294,12 +294,12 @@ html {
   .reveal .slides section ul li:before {
     content: "\f105";
     font-family: FontAwesome;
-    color: #485094;
+    color: #9ABD48;
     /* or whatever color you prefer */
     position: absolute;
     left: -3vmin; }
   .reveal .slides section .admonitionblock {
-    color: #485094; }
+    color: #9ABD48; }
 
 .grid-wrapper {
   display: grid; }
@@ -327,7 +327,7 @@ html {
 
 .reveal h1,
 .reveal h2 {
-  background-color: #485094;
+  background-color: #9ABD48;
   color: #fff; }
 
 .reveal h1,
@@ -363,7 +363,7 @@ html {
   .reveal .slides section .logo--event,
   .reveal .slides section .logo--banner {
     position: absolute;
-    color: #485094;
+    color: #9ABD48;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     margin-left: auto;
     margin-right: auto;
