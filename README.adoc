@@ -17,6 +17,7 @@ Then:
 [source,shell]
 ----
 cd new-presentation/
+make Gemfile Gemfile.lock
 bundle update
 ----
 
@@ -46,3 +47,7 @@ popd
 cp reveal.js/css/theme/ribose.css revealjs-css/
 ----
 
+== Rendering the Presentation
+
+You can build an interactive Reveal.js presentation or a set of slides in PDF.
+Refer to README inside presentation directory on details.
