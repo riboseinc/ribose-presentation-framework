@@ -17,8 +17,8 @@ Then:
 [source,shell]
 ----
 cd new-presentation/
-make Gemfile Gemfile.lock
-bundle update
+make Gemfile
+bundle
 ----
 
 == Updating the Reveal.js calconnect.css Stylesheet
