@@ -297,6 +297,7 @@ html {
 		background-color: transparent;
 	}
 
+  .logo--logo,
 	.logo--event,
   .logo--banner {
     position: absolute;
@@ -308,6 +309,15 @@ html {
     right: 0;
     text-align: center;
 	}
+
+  /* This is the real logo */
+  .logo--logo {
+    top: 4vmin;
+    height: 10vmin;
+    width: auto;
+    background: url("../images/ribose-logo.svg") no-repeat;
+    background-position: center center;
+  }
   .logo--event {
     top: 5vmin;
     font-size: 8vmin;

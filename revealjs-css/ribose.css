@@ -411,11 +411,13 @@ html {
 .reveal .slides section {
   height: 100vh;
   margin: 0;
-  color: #000000; }
+  color: #000000;
+  /* This is the real logo */ }
   .reveal .slides section:not([class*='color--']) {
     background-color: #FFFFFF; }
   .reveal .slides section.stack {
     background-color: transparent; }
+  .reveal .slides section .logo--logo,
   .reveal .slides section .logo--event,
   .reveal .slides section .logo--banner {
     position: absolute;
@@ -426,6 +428,12 @@ html {
     left: 0;
     right: 0;
     text-align: center; }
+  .reveal .slides section .logo--logo {
+    top: 4vmin;
+    height: 10vmin;
+    width: auto;
+    background: url("../images/ribose-logo.svg") no-repeat;
+    background-position: center center; }
   .reveal .slides section .logo--event {
     top: 5vmin;
     font-size: 8vmin; }
