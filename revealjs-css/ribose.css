@@ -20,12 +20,12 @@ body {
 
 ::selection {
   color: #fff;
-  background: #9298ca;
+  background: #cedfa6;
   text-shadow: none; }
 
 ::-moz-selection {
   color: #fff;
-  background: #9298ca;
+  background: #cedfa6;
   text-shadow: none; }
 
 .reveal .slides > section,
@@ -212,13 +212,13 @@ body {
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #6f77b9;
+  color: #b9d180;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #2f3461; }
+  background: #6e8831; }
 
 /*********************************************
  * IMAGES
@@ -283,6 +283,62 @@ html {
 .reveal table th,
 .reveal table td {
   vertical-align: top; }
+
+.reveal table th.halign-left, .reveal table td.halign-left {
+  text-align: left; }
+
+.reveal table th.halign-right, .reveal table td.halign-right {
+  text-align: right; }
+
+.reveal table th.halign-center, .reveal table td.halign-center {
+  text-align: center; }
+
+.reveal table th.valign-top, .reveal table td.valign-top {
+  vertical-align: top; }
+
+.reveal table th.valign-bottom, .reveal table td.valign-bottom {
+  vertical-align: bottom; }
+
+.reveal table th.valign-middle, .reveal table td.valign-middle {
+  vertical-align: middle; }
+
+.reveal table thead th, .reveal table tfoot th {
+  font-weight: bold; }
+
+.reveal table tbody tr th {
+  display: table-cell;
+  line-height: 1.6;
+  background: #f7f8f7; }
+
+.reveal table tbody tr th,
+.reveal table tbody tr th p,
+.reveal table tfoot tr th,
+.reveal table tfoot tr th p {
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: bold; }
+
+.reveal table .tableblock {
+  max-width: 100%;
+  border-collapse: separate; }
+
+.reveal table td.tableblock > .content {
+  margin-bottom: -1.25em; }
+
+.reveal table .stripes-all tr,
+.reveal table .stripes-odd tr:nth-of-type(odd) {
+  background: #f8f8f7; }
+
+.reveal table .stripes-none tr,
+.reveal table .stripes-odd tr:nth-of-type(even) {
+  background: none; }
+
+.reveal p.tableblock {
+  font-size: 1em; }
+  .reveal p.tableblock:last-child {
+    margin-bottom: 0; }
+  .reveal p.tableblock > code:only-child {
+    background: none;
+    padding: 0; }
 
 .reveal .slides section {
   background-color: #FFFFFF;
