@@ -93,6 +93,11 @@ $slidePadding: 10vmin;
 html {
 	font-size: 3.8vmin;
 }
+
+body {
+  margin: 0;
+}
+
 @media (#{$viewport-small}) {
 	html {
 		font-size: 16px;
@@ -197,14 +202,14 @@ html {
   }
 
   background:
-    url("../images/ribose-top-left-corner.svg") left -70vmin top -65vmin no-repeat,
-    url("../images/ribose-top-right-corner.svg") right -100vmin top -50vmin no-repeat,
-    url("../images/ribose-bottom-left-corner.svg") left -55vmin bottom -40vmin no-repeat,
-    url("../images/ribose-bottom-right-corner.svg") right -50vmin bottom -50vmin no-repeat,
+    url("../reveal-images/ribose-top-left-corner.svg") left -70vmin top -65vmin no-repeat,
+    url("../reveal-images/ribose-top-right-corner.svg") right -100vmin top -50vmin no-repeat,
+    url("../reveal-images/ribose-bottom-left-corner.svg") left -55vmin bottom -40vmin no-repeat,
+    url("../reveal-images/ribose-bottom-right-corner.svg") right -50vmin bottom -50vmin no-repeat,
     white;
 
   //.logo {
-  //  background-image: url("../images/ribose-top-corner.svg");
+  //  background-image: url("../reveal-images/ribose-top-corner.svg");
   //}
 }
 
@@ -251,6 +256,7 @@ html {
   // Ribose override
 	//margin-bottom: 2.5vmin;
 	padding: 2.5vmin;
+  margin: 0;
 }
 
 .reveal .slides section {
@@ -315,7 +321,7 @@ html {
     top: 4vmin;
     height: 10vmin;
     width: auto;
-    background: url("../images/ribose-logo.svg") no-repeat;
+    background: url("../reveal-images/ribose-logo.svg") no-repeat;
     background-position: center center;
   }
   .logo--event {
@@ -345,7 +351,7 @@ html {
 	}
 
 	.logo {
-		background-image: url("../images/ribose-logo.svg");
+		background-image: url("../reveal-images/ribose-logo.svg");
 		background-repeat: no-repeat;
 		background-size: auto 100%;
 		display: inline-block;
@@ -409,19 +415,19 @@ html {
 	@include section(0vmin);
 
   background:
-    url("../images/ribose-top-left-corner.svg") left -90vmin top -50vmin no-repeat,
-    url("../images/ribose-top-right-corner.svg") right -60vmin top -65vmin no-repeat,
-    url("../images/ribose-bottom-left-corner.svg") left -58vmin bottom -35vmin no-repeat,
-    url("../images/ribose-bottom-right-corner.svg") right -45vmin bottom -45vmin no-repeat,
+    url("../reveal-images/ribose-top-left-corner.svg") left -90vmin top -50vmin no-repeat,
+    url("../reveal-images/ribose-top-right-corner.svg") right -60vmin top -65vmin no-repeat,
+    url("../reveal-images/ribose-bottom-left-corner.svg") left -58vmin bottom -35vmin no-repeat,
+    url("../reveal-images/ribose-bottom-right-corner.svg") right -45vmin bottom -45vmin no-repeat,
     white;
 
   h1 {
     color: $white;
     margin-top: 20vmin;
-    margin-bottom: 10vmin;
   }
 
   .preamble {
+    margin-top: 10vmin;
     font-size: 4vmin;
   }
 
@@ -446,7 +452,7 @@ html {
 	}
 
 	.logo {
-    background-image: url("../images/ribose-logo.svg");
+    background-image: url("../reveal-images/ribose-logo.svg");
 		height: 12vmin;
 		width: 12vmin;
 	}
@@ -528,7 +534,7 @@ html {
 	&:not([class*='color--']),
 	&.color--light {
 		.logo {
-      background-image: url("../images/ribose-logo.svg");
+      background-image: url("../reveal-images/ribose-logo.svg");
 		}
 	}
 	&.color--midnight,
@@ -741,7 +747,7 @@ html {
 	}
 
 	.logo {
-    background-image: url("../images/ribose-logo.svg");
+    background-image: url("../reveal-images/ribose-logo.svg");
 		background-position: center;
 		background-size: contain;
 		height: auto;
@@ -778,6 +784,11 @@ figure.code pre {
 	width: 100%;
 	overflow: hidden;
 }
+
+.reveal pre {
+  font-size: 0.8em;
+}
+
 .reveal pre code {
 	background-color: #3f3f3f;
 	border: 1ex solid #3f3f3f;
