@@ -129,6 +129,19 @@ body {
     text-align:left
   }
 
+  &.frame-all {
+    border-width: 0;
+  }
+
+  &.grid-all {
+    > thead > tr,
+    > tbody> tr {
+      > .tableblock {
+        border-width: 0;
+      }
+    }
+  }
+
   th.halign-right,td.halign-right{text-align:right}
 
   th.halign-center,td.halign-center{text-align:center}
@@ -151,7 +164,11 @@ body {
     font-weight:bold;
   }
 
-  .tableblock { max-width:100%;border-collapse:separate}
+  .tableblock {
+    max-width:100%;
+    border-collapse:separate;
+    border-width: 0;
+  }
   td.tableblock > .content{margin-bottom:-1.25em}
 
   .stripes-all tr,
@@ -164,6 +181,7 @@ body {
     background:none;
   }
 }
+
 
 .reveal p.tableblock {
 
@@ -191,8 +209,8 @@ body {
   }
 
   ul li:before {
-    content: "\f105";
-    font-family: FontAwesome;
+    content: "\25B8";
+    /*font-family: FontAwesome;*/
     color: $ribosegreen; /* or whatever color you prefer */
     position: absolute;
     left: -3vmin;
